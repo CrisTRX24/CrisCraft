@@ -1,0 +1,74 @@
+body {
+    color: rgb(204, 204, 204);
+    background:rgb(128, 62, 0);
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header {
+    border-bottom: solid 40px rgb(49, 49, 49) ;
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(49, 49, 49);
+}
+
+
+section{
+    background:rgb(18, 143, 1);
+    padding-bottom: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.inicio{
+    margin-right: 45px;
+}
+
+
+h1{
+    font-size: 45px;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+
+img {
+    height: 300px;
+}
+
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 80px;
+}
+
+
+.jogos{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.videos img {
+    opacity: 0.5;
+
+} 
+
+
+.videos img:hover{
+    opacity: 1.0;
+    border: 5px solid blue ;
+}
+
+
+.jogos h2{
+    color:rgb(34, 34, 34) ;
+}
